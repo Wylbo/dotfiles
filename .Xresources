@@ -1,0 +1,49 @@
+! ------------------------------------------------------------------------------
+!                |                  _____.__    |
+!                |   _______  _____/ ____\__|   |
+!                |   \_  __ \/  _ \   __\|  |   |
+!                |    |  | \(  <_> )  |  |  |   |
+!                |    |__|   \____/|__|  |__|   |
+! ------------------------------------------------------------------------------
+
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+! State:                             ´bg´,   ´fg´,   ´bgalt´,´hlbg´, ´hlfg´
+rofi.color-normal:                   #2f343f,#f3f4f5,#2f343f,#5294e2,#f3f4f5
+! Color scheme for urgent row
+rofi.color-urgent:                   #2f343f,#f3f4f5,#2f343f,#2f343f,#9575cd
+! Color scheme for active row
+rofi.color-active:                   #2f343f,#f3f4f5,#2f343f,#2f343f,#9575cd
+! Color scheme window
+rofi.color-window:                   #2f343f,#5294e2,#2f343f
+! Separator style (none, dash, solid)
+rofi.separator-style:                none
+! Font used
+rofi.font:                           System San Francisco Display 18
+! Line shown
+rofi.lines:                          5
+! Background opacity
+rofi.opacity:                        85
+! Size and position
+! location : 1 2 3
+!            8 0 4
+!            7 6 5
+rofi.location:                       0
+! Padding in px
+rofi.padding:                        30
+! Width in %
+rofi.width:                          40
+! ! Set element height
+rofi.eh:                             1
+! ! Set border with
+rofi.bw:                             3
+! rofi no scrollbar
+rofi.hide-scorllbar:                 true
+
+! Set prompt
+rofi.display-run:                    >_
